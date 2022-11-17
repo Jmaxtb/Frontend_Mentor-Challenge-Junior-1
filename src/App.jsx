@@ -1,15 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import React from 'react'
 import Attribution from './components/attribution'
+import Cards from './components/Cards'
+import Form from './components/Form'
+import "./styles/App.css"
 
 function App() {
 
   return (
     <>
       <div className="App">
-        <h1>Hello, world</h1>
+        <Cards/>
+        <Form/>
+        <Attribution/>
       </div>
-      <Attribution/>
     </>
   )
 }

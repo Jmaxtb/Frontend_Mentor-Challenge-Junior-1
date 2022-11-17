@@ -1,0 +1,56 @@
+
+.cardfront-img {
+    position: relative;
+    left: 18px;
+    top: 120px;
+    width: 275px;
+    height: 151px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    z-index: 0;
+}
+.cardfront-img .circle {
+    position: absolute;
+    left: 18px;
+    top: 18px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--White);
+    border-radius: 50%;
+    z-index: 1;
+}
+.cardfront-img .circle-border {
+    position: absolute;
+    left: 56px;
+    top: 27px;
+    width: 12px;
+    height: 12px;
+    background-color: transparent;
+    border: 1px solid var(--White);
+    border-radius: 50%;
+    z-index: 1;
+}
+.cardfront-img h1 {
+    position: absolute;
+    top: 65px;
+    left: 20px;
+    color: var(--White);
+    font-weight: 300;
+}
+.cardfront-img .first {
+    position: absolute;
+    font-size: 10px;
+    top: 105px;
+    color: var(--White);
+    left: 20px;
+    font-weight: 300;
+}
+.cardfront-img .second {
+    right: 20px;
+    position: absolute;
+    font-size: 10px;
+    top: 105px;
+    color: var(--White);
+    font-weight: 300;
+}
